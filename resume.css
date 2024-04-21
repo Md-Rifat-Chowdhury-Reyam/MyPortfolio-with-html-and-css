@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.heading{
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+}
+
+.Footer{
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.Motherdiv{
+    overflow: auto;
+
+}
+
+.menu{
+    float: left;
+    padding:0 ;
+    width: 20%;
+}
+.menu a{
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin-top:10px;
+    width: 100%;
+    color: black;
+    display: block;
+    
+}
+
+.main{
+    width: 60%;
+    padding: 20px;
+    float: left;
+}
+
+.obj{
+    background-color: #e5e5e5;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width:800px) {
+    .menu,.main,.obj{
+        width: 100%;
+    }
+}
